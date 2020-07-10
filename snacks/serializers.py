@@ -1,7 +1,7 @@
-from rest_framework.serializers import ModelSerialzer
+from rest_framework.serializers import ModelSerializer
 from .models import Snack
 
-class SnackSerializer(ModelSerialzer):
+class SnackSerializer(ModelSerializer):
     
     class Meta:
         model = Snack
